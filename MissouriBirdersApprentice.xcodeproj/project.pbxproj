@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F4968851F9427D700AE039F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4968841F9427D700AE039F /* AppDelegate.swift */; };
+		3F4968871F9427D700AE039F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4968861F9427D700AE039F /* ViewController.swift */; };
+		3F49688A1F9427D700AE039F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4968881F9427D700AE039F /* Main.storyboard */; };
+		3F49688C1F9427D700AE039F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F49688B1F9427D700AE039F /* Assets.xcassets */; };
+		3F49688F1F9427D700AE039F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F49688D1F9427D700AE039F /* LaunchScreen.storyboard */; };
+		3F49689A1F9427D700AE039F /* MissouriBirdersApprenticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4968991F9427D700AE039F /* MissouriBirdersApprenticeTests.swift */; };
+		3F4968A51F9427D700AE039F /* MissouriBirdersApprenticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4968A41F9427D700AE039F /* MissouriBirdersApprenticeUITests.swift */; };
+		3F4968B91F94380F00AE039F /* CountyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4968B81F94380F00AE039F /* CountyTableViewController.swift */; };
+		3F4968BB1F94382A00AE039F /* BirdsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4968BA1F94382A00AE039F /* BirdsTableViewController.swift */; };
+		3F4968BD1F94385B00AE039F /* BirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4968BC1F94385B00AE039F /* BirdViewController.swift */; };
+		3F8D32301F95535E000FFF23 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8D322F1F95535E000FFF23 /* Data.swift */; };
+		4DC3570B1F95771400EB0799 /* CountyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3570A1F95771400EB0799 /* CountyTableViewCell.swift */; };
+		4DC3570D1F95773F00EB0799 /* BirdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3570C1F95773F00EB0799 /* BirdTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F4968961F9427D700AE039F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F4968791F9427D700AE039F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F4968801F9427D700AE039F;
+			remoteInfo = MissouriBirdersApprentice;
+		};
+		3F4968A11F9427D700AE039F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F4968791F9427D700AE039F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F4968801F9427D700AE039F;
+			remoteInfo = MissouriBirdersApprentice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F4968811F9427D700AE039F /* MissouriBirdersApprentice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MissouriBirdersApprentice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F4968841F9427D700AE039F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F4968861F9427D700AE039F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F4968891F9427D700AE039F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F49688B1F9427D700AE039F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F49688E1F9427D700AE039F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F4968901F9427D700AE039F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F4968951F9427D700AE039F /* MissouriBirdersApprenticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MissouriBirdersApprenticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F4968991F9427D700AE039F /* MissouriBirdersApprenticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissouriBirdersApprenticeTests.swift; sourceTree = "<group>"; };
+		3F49689B1F9427D700AE039F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F4968A01F9427D700AE039F /* MissouriBirdersApprenticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MissouriBirdersApprenticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F4968A41F9427D700AE039F /* MissouriBirdersApprenticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissouriBirdersApprenticeUITests.swift; sourceTree = "<group>"; };
+		3F4968A61F9427D700AE039F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F4968B81F94380F00AE039F /* CountyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountyTableViewController.swift; sourceTree = "<group>"; };
+		3F4968BA1F94382A00AE039F /* BirdsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdsTableViewController.swift; sourceTree = "<group>"; };
+		3F4968BC1F94385B00AE039F /* BirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdViewController.swift; sourceTree = "<group>"; };
+		3F8D322F1F95535E000FFF23 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		4DC3570A1F95771400EB0799 /* CountyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountyTableViewCell.swift; sourceTree = "<group>"; };
+		4DC3570C1F95773F00EB0799 /* BirdTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F49687E1F9427D700AE039F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4968921F9427D700AE039F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F49689D1F9427D700AE039F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F4968781F9427D700AE039F = {
+			isa = PBXGroup;
+			children = (
+				3F4968831F9427D700AE039F /* MissouriBirdersApprentice */,
+				3F4968981F9427D700AE039F /* MissouriBirdersApprenticeTests */,
+				3F4968A31F9427D700AE039F /* MissouriBirdersApprenticeUITests */,
+				3F4968821F9427D700AE039F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F4968821F9427D700AE039F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F4968811F9427D700AE039F /* MissouriBirdersApprentice.app */,
+				3F4968951F9427D700AE039F /* MissouriBirdersApprenticeTests.xctest */,
+				3F4968A01F9427D700AE039F /* MissouriBirdersApprenticeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F4968831F9427D700AE039F /* MissouriBirdersApprentice */ = {
+			isa = PBXGroup;
+			children = (
+				3F4968841F9427D700AE039F /* AppDelegate.swift */,
+				3F4968861F9427D700AE039F /* ViewController.swift */,
+				3F4968B81F94380F00AE039F /* CountyTableViewController.swift */,
+				3F4968BA1F94382A00AE039F /* BirdsTableViewController.swift */,
+				3F4968BC1F94385B00AE039F /* BirdViewController.swift */,
+				3F8D322F1F95535E000FFF23 /* Data.swift */,
+				4DC3570A1F95771400EB0799 /* CountyTableViewCell.swift */,
+				4DC3570C1F95773F00EB0799 /* BirdTableViewCell.swift */,
+				3F4968881F9427D700AE039F /* Main.storyboard */,
+				3F49688B1F9427D700AE039F /* Assets.xcassets */,
+				3F49688D1F9427D700AE039F /* LaunchScreen.storyboard */,
+				3F4968901F9427D700AE039F /* Info.plist */,
+			);
+			path = MissouriBirdersApprentice;
+			sourceTree = "<group>";
+		};
+		3F4968981F9427D700AE039F /* MissouriBirdersApprenticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F4968991F9427D700AE039F /* MissouriBirdersApprenticeTests.swift */,
+				3F49689B1F9427D700AE039F /* Info.plist */,
+			);
+			path = MissouriBirdersApprenticeTests;
+			sourceTree = "<group>";
+		};
+		3F4968A31F9427D700AE039F /* MissouriBirdersApprenticeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F4968A41F9427D700AE039F /* MissouriBirdersApprenticeUITests.swift */,
+				3F4968A61F9427D700AE039F /* Info.plist */,
+			);
+			path = MissouriBirdersApprenticeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F4968801F9427D700AE039F /* MissouriBirdersApprentice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F4968A91F9427D700AE039F /* Build configuration list for PBXNativeTarget "MissouriBirdersApprentice" */;
+			buildPhases = (
+				3F49687D1F9427D700AE039F /* Sources */,
+				3F49687E1F9427D700AE039F /* Frameworks */,
+				3F49687F1F9427D700AE039F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MissouriBirdersApprentice;
+			productName = MissouriBirdersApprentice;
+			productReference = 3F4968811F9427D700AE039F /* MissouriBirdersApprentice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F4968941F9427D700AE039F /* MissouriBirdersApprenticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F4968AC1F9427D700AE039F /* Build configuration list for PBXNativeTarget "MissouriBirdersApprenticeTests" */;
+			buildPhases = (
+				3F4968911F9427D700AE039F /* Sources */,
+				3F4968921F9427D700AE039F /* Frameworks */,
+				3F4968931F9427D700AE039F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F4968971F9427D700AE039F /* PBXTargetDependency */,
+			);
+			name = MissouriBirdersApprenticeTests;
+			productName = MissouriBirdersApprenticeTests;
+			productReference = 3F4968951F9427D700AE039F /* MissouriBirdersApprenticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F49689F1F9427D700AE039F /* MissouriBirdersApprenticeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F4968AF1F9427D700AE039F /* Build configuration list for PBXNativeTarget "MissouriBirdersApprenticeUITests" */;
+			buildPhases = (
+				3F49689C1F9427D700AE039F /* Sources */,
+				3F49689D1F9427D700AE039F /* Frameworks */,
+				3F49689E1F9427D700AE039F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F4968A21F9427D700AE039F /* PBXTargetDependency */,
+			);
+			name = MissouriBirdersApprenticeUITests;
+			productName = MissouriBirdersApprenticeUITests;
+			productReference = 3F4968A01F9427D700AE039F /* MissouriBirdersApprenticeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F4968791F9427D700AE039F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Student;
+				TargetAttributes = {
+					3F4968801F9427D700AE039F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					3F4968941F9427D700AE039F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F4968801F9427D700AE039F;
+					};
+					3F49689F1F9427D700AE039F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F4968801F9427D700AE039F;
+					};
+				};
+			};
+			buildConfigurationList = 3F49687C1F9427D700AE039F /* Build configuration list for PBXProject "MissouriBirdersApprentice" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F4968781F9427D700AE039F;
+			productRefGroup = 3F4968821F9427D700AE039F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F4968801F9427D700AE039F /* MissouriBirdersApprentice */,
+				3F4968941F9427D700AE039F /* MissouriBirdersApprenticeTests */,
+				3F49689F1F9427D700AE039F /* MissouriBirdersApprenticeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F49687F1F9427D700AE039F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F49688F1F9427D700AE039F /* LaunchScreen.storyboard in Resources */,
+				3F49688C1F9427D700AE039F /* Assets.xcassets in Resources */,
+				3F49688A1F9427D700AE039F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4968931F9427D700AE039F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F49689E1F9427D700AE039F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F49687D1F9427D700AE039F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4968871F9427D700AE039F /* ViewController.swift in Sources */,
+				3F4968BD1F94385B00AE039F /* BirdViewController.swift in Sources */,
+				3F4968BB1F94382A00AE039F /* BirdsTableViewController.swift in Sources */,
+				3F4968B91F94380F00AE039F /* CountyTableViewController.swift in Sources */,
+				3F8D32301F95535E000FFF23 /* Data.swift in Sources */,
+				4DC3570B1F95771400EB0799 /* CountyTableViewCell.swift in Sources */,
+				4DC3570D1F95773F00EB0799 /* BirdTableViewCell.swift in Sources */,
+				3F4968851F9427D700AE039F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4968911F9427D700AE039F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F49689A1F9427D700AE039F /* MissouriBirdersApprenticeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F49689C1F9427D700AE039F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4968A51F9427D700AE039F /* MissouriBirdersApprenticeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F4968971F9427D700AE039F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F4968801F9427D700AE039F /* MissouriBirdersApprentice */;
+			targetProxy = 3F4968961F9427D700AE039F /* PBXContainerItemProxy */;
+		};
+		3F4968A21F9427D700AE039F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F4968801F9427D700AE039F /* MissouriBirdersApprentice */;
+			targetProxy = 3F4968A11F9427D700AE039F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F4968881F9427D700AE039F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F4968891F9427D700AE039F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F49688D1F9427D700AE039F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F49688E1F9427D700AE039F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F4968A71F9427D700AE039F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F4968A81F9427D700AE039F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F4968AA1F9427D700AE039F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MissouriBirdersApprentice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NWMissouri.MissouriBirdersApprentice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F4968AB1F9427D700AE039F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MissouriBirdersApprentice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NWMissouri.MissouriBirdersApprentice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F4968AD1F9427D700AE039F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MissouriBirdersApprenticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NWMissouri.MissouriBirdersApprenticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MissouriBirdersApprentice.app/MissouriBirdersApprentice";
+			};
+			name = Debug;
+		};
+		3F4968AE1F9427D700AE039F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MissouriBirdersApprenticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NWMissouri.MissouriBirdersApprenticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MissouriBirdersApprentice.app/MissouriBirdersApprentice";
+			};
+			name = Release;
+		};
+		3F4968B01F9427D700AE039F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MissouriBirdersApprenticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NWMissouri.MissouriBirdersApprenticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MissouriBirdersApprentice;
+			};
+			name = Debug;
+		};
+		3F4968B11F9427D700AE039F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MissouriBirdersApprenticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NWMissouri.MissouriBirdersApprenticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MissouriBirdersApprentice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F49687C1F9427D700AE039F /* Build configuration list for PBXProject "MissouriBirdersApprentice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F4968A71F9427D700AE039F /* Debug */,
+				3F4968A81F9427D700AE039F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F4968A91F9427D700AE039F /* Build configuration list for PBXNativeTarget "MissouriBirdersApprentice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F4968AA1F9427D700AE039F /* Debug */,
+				3F4968AB1F9427D700AE039F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F4968AC1F9427D700AE039F /* Build configuration list for PBXNativeTarget "MissouriBirdersApprenticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F4968AD1F9427D700AE039F /* Debug */,
+				3F4968AE1F9427D700AE039F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F4968AF1F9427D700AE039F /* Build configuration list for PBXNativeTarget "MissouriBirdersApprenticeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F4968B01F9427D700AE039F /* Debug */,
+				3F4968B11F9427D700AE039F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F4968791F9427D700AE039F /* Project object */;
+}
